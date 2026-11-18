@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Promise — Creative web developer building beautiful and functional digital experiences.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Promise.Dev</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="portfolio-container">
+
+        <!-- Mobile Header -->
+        <header class="site-header">
+
+            <a href="#home" class="brand">
+                <img src="images/logo.svg" alt="Promise logo">
+            </a>
+
+            <nav class="desktop-navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="menu-trigger" id="menuTrigger" aria-expanded="false" aria-controls="sideDrawer">
+
+                <span class="trigger-text" id="triggerText"></span>
+
+                <span class="burger-lines" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                </span>
+
+            </button>
+
+        </header>
+
+        <!-- Sidebar -->
+
+
+
+        <!-- Mobile Menu Backdrop -->
+        <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+        <!-- Mobile Navigation Drawer -->
+        <aside class="side-drawer" id="sideDrawer" aria-hidden="true">
+
+
+            <nav class="drawer-nav">
+                <a href="#home" class="drawer-link">Home</a>
+
+                <a href="#about" class="drawer-link">About</a>
+
+                <a href="#skills" class="drawer-link">skills</a>
+
+                <a href="#projects" class="drawer-link">Projects</a>
+
+                <a href="#contact" class="drawer-link">Contact</a>
+            </nav>
+
+        </aside>
+
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Hero Section -->
+            <section class="hero" id="home">
+
+                <div class="hero-content">
+
+                    <p class="hero-subtitle">Full-Stack Web Developer</p>
+
+                    <h1>
+                        Full-Stack
+                        <span>Web Developer.</span>
+                    </h1>
+
+
+                    <p class="hero-description">
+                        I build modern, responsive and functional websites,
+                        bringing ideas to life through frontend design
+                        and backend development.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="primary-btn">
+                            Explore My Work ↗
+                        </a>
+
+                        <a href="#about" class="secondary-btn">
+                            About Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+
+            <!-- About Section -->
+            <section class="about-section" id="about">
+
+                <div class="about-content">
+
+                    <p class="section-label">ABOUT ME</p>
+
+                    <h2>
+                        I Bulid Website that
+                        <span> Help your Business Grow</span>
+                    </h2>
+
+                    <p class="about-intro">
+                        I'm Promise a full stack web developer focused
+                        on building clean, reliable websites from scratch.
+                        As I wrap up my final full-stack training,
+                        I'm passionate about working with brands and businesses
+                        to bring their visions and ideas online without stress.
+                    </p>
+
+                    <a href="#projects" class="about-link">
+                        Explore my work <span>↗</span>
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills-section" id="skills">
+
+                <div class="skills-content">
+
+                    <p class="section-label">MY EXPERTISE</p>
+
+                    <h2>
+                        Tools I Use to
+                        <span>Build Ideas.</span>
+                    </h2>
+
+                    <p class="skills-intro">
+                        Technologies and tools I use to create
+                        modern, responsive and functional websites.
+                    </p>
+
+                    <div class="skill-category">
+
+                        <h3>Web Development</h3>
+
+                        <div class="skills-grid">
+                            <div class="skill-item">HTML5</div>
+                            <div class="skill-item">CSS3</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">PHP</div>
+                            <div class="skill-item">MySQL</div>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-category">
+
+                        <h3>Creative & Digital Skills</h3>
+
+                        <div class="skills-grid">
+                            <div class="skill-item">Video Editing</div>
+                            <div class="skill-item">Photo Editing</div>
+                            <div class="skill-item">Content Creation</div>
+                            <div class="skill-item">Digital Creativity</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects-section" id="projects">
+
+                <div class="projects-content">
+
+                    <p class="section-label">MY WORK</p>
+
+                    <h2>
+                        Selected
+                        <span>Projects.</span>
+                    </h2>
+
+                    <p class="projects-intro">
+                        A collection of projects where ideas
+                        become meaningful digital experiences.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <img src="images/Preze-preview.jpg" alt="PREZE streetwear website">
+                    </div>
+
+                    <div class="project-info">
+
+                        <p class="project-category">E-COMMERCE / WEB DEVELOPMENT</p>
+
+                        <h3>PREZE — Independent Streetwear</h3>
+
+                        <p>
+                            A modern streetwear e-commerce experience
+                            designed with a clean interface, product
+                            browsing, shopping cart and checkout system.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://preze.free.nf/preze" target="_blank" rel="noopener noreferrer">
+                                Live Preview ↗
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section" id="contact">
+
+                <div class="contact-content">
+
+                    <p class="section-label">GET IN TOUCH</p>
+
+                    <h2>
+                        Have a Project
+                        <span>in Mind?</span>
+                    </h2>
+
+                    <p class="contact-intro">
+                        Have an idea, a project or an opportunity?
+                        I'd love to hear from you. Let's create
+                        something meaningful together.
+                    </p>
+
+                    <a href="mailto:peze44474@gmail.com" class="contact-button">
+                        Let's Talk ↗
+                    </a>
+
+                    <a href="https://wa.me/2348069623782" target="_blank" rel="noopener noreferrer"
+                        class="whatsapp-button">
+                        Chat on WhatsApp ↗
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h2>PROMISE<span>.</span>DEV</h2>
+                <p>Turning ideas into reality.</p>
+                <p class="footer-description">
+                    Building meaningful digital experiences
+                    through creativity and technology.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="footer-socials">
+                <h3>Connect</h3>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/bypromise.co/" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@promise.co_" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/promise.co_" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://github.com/peze44474-crypto" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>© 2026 PROMISE.DEV. All rights reserved.</p>
+            <p>Designed & Built by Promise.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
